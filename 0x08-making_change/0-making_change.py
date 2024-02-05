@@ -1,11 +1,17 @@
 #!/usr/bin/python3
+""" Making changes """
 
 def min_coins(coins, total):
+    """ Fewest number of coins needed to neet total
+
+    Args:
+        coins ([List]): [List of coins ]
+        total ([int]): [total amount to reach]
+    """
 
     if total <= 0:
         return 0
     
-    # Initialize an array to store the minimum number of coins 
     array = [float('inf')] * (total + 1)
 
     # o is the minimum number of coins needed to make a change
