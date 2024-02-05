@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """ Making changes """
 
-def min_coins(coins, total):
+def makeChange(coins, total):
     """ Fewest number of coins needed to neet total
 
     Args:
@@ -27,3 +27,5 @@ def min_coins(coins, total):
             return -1
         else:
             return array[total]
+        
+print(makeChange([1, 2, 25], 37))
