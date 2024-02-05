@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def min_coins(coins, total):
 
     if total <= 0:
