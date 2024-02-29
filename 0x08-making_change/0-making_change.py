@@ -23,4 +23,3 @@ def makeChange(coins, total):
         check -= i
         temp -= 1
     return -1
-print(makeChange([1256, 54, 48, 16, 102], 1453))
